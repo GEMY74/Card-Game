@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Card Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text">
+        <h1>Hello There 👋</h1>
+        <button id="start_btn">Start Play</button>
+
+        <div class="tries">
+          <p>you have 10 wrong tries:</p>
+          <span>0</span>
+        </div>
+      </div>
+      <section></section>
+    </div>
+
+    <div class="overlay">
+      <h1></h1>
+      <h3></h3>
+      <button id="again_btn">Play Again</button>
+    </div>
+
+    <audio
+      id="right"
+      src="/assets/rightanswer-95219.mp3"
+      preload="auto"
+    ></audio>
+    <audio
+      id="wrong"
+      src="/assets/buzzer-or-wrong-answer-20582.mp3"
+      preload="auto"
+    ></audio>
+    <audio
+      id="clapp"
+      src="/assets/mixkit-conference-audience-clapping-strongly-476.wav"
+      preload="auto"
+    ></audio>
+
+    <!-- ************** cards page **************** -->
+
+    <script src="/app.js"></script>
+  </body>
+</html>
